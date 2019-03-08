@@ -3,8 +3,6 @@
     <div class="tab-wrap">
       <p class="tab-home" @click="$router.push('/')">
         <!-- <img src="@/assets/home/tab-ico-home-pre.png" alt> -->
-        <!-- <img v-if="path === '/'" src="@/assets/home/tab-ico-home-pre.png" alt>
-        <img v-else src="@/assets/home/tab-ico-home-nor.png" alt> -->
         首页
       </p>
       <p onclick="alert('null')">
@@ -13,8 +11,6 @@
       </p>
       <p @click="$router.push('my')">
         <!-- <img src="@/assets/home/tab-ico-me-nor.png" alt> -->
-        <!-- <img v-if="path === '/my'" src="@/assets/home/tab-ico-me-pre.png" alt>
-        <img v-else src="@/assets/home/tab-ico-me-nor.png" alt> -->
         我的
       </p>
     </div>
@@ -43,10 +39,11 @@ export default {
   bottom: 0;
   width: 100%;
   height: 1rem;
-  border-top: 1px solid #ccc;
+  // border-top: 1px solid #ccc;
   // opacity: 0.7;
   font-size: 0.24rem;
   background-color: #fff;
+  box-shadow: 0 -2px 6px 0 rgba(0,0,0,.1);
   // img {
   //   width: 0.28rem;
   // }
