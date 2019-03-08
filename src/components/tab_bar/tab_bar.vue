@@ -39,8 +39,7 @@ export default {
   bottom: 0;
   width: 100%;
   height: 1rem;
-  // border-top: 1px solid #ccc;
-  // opacity: 0.7;
+  line-height: 1rem;
   font-size: 0.24rem;
   background-color: #fff;
   box-shadow: 0 -2px 6px 0 rgba(0,0,0,.1);
