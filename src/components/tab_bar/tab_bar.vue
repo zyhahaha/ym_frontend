@@ -5,11 +5,11 @@
         <!-- <img src="@/assets/home/tab-ico-home-pre.png" alt> -->
         首页
       </p>
-      <p onclick="alert('null')">
+      <p>
         <!-- <img src="@/assets/home/tab-ico-community-nor.png" alt> -->
         社区
       </p>
-      <p @click="$router.push('my')">
+      <p>
         <!-- <img src="@/assets/home/tab-ico-me-nor.png" alt> -->
         我的
       </p>
